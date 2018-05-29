@@ -7,7 +7,7 @@ import java.util.LinkedList;
 
 /**
  *
- * @author Francisco Guadarrama Coronado
+ * @author frank
  */
 public class HiloServidor implements Runnable {
 

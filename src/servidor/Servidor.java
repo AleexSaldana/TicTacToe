@@ -31,10 +31,12 @@ public class Servidor {
             //Creacion del socket servidor
             ServerSocket servidor = new ServerSocket(puerto, noConexiones);
             //Ciclo infinito para esperar nuevos jugadores
-            System.out.println("Esperando jugadores....");
+
             while (true) {
                 //Cuando un jugador se conecte guardamos el socket en la lista
+                System.out.println("Esperando jugadores....");
                 Socket cliente = servidor.accept();
+                System.out.println("Se ha conectado un nuevo usuario");
                 //Agrega Socket
                 usuarios.add(cliente);
                 //Generación de hilos

@@ -5,7 +5,7 @@ import javax.swing.JButton;
 
 /**
  *
- * @author Francisco Guadarrama Coronado
+ * @author frank
  */
 public class Main extends javax.swing.JFrame {
 
@@ -63,6 +63,7 @@ public class Main extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Juego Gato");
         setBackground(new java.awt.Color(204, 204, 204));
+        setLocation(new java.awt.Point(500, 150));
         setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(186, 224, 240));

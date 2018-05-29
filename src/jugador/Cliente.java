@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author netosolis
+ * @author manue
  */
 public class Cliente implements Runnable{
     //Declaramos las variables necesarias para la conexion y comunicacion
@@ -21,7 +21,7 @@ public class Cliente implements Runnable{
     private DataInputStream in;
     //El puerto debe ser el mismo en el que escucha el servidor
     private int puerto = 2027;
-    //Si estamos en nuestra misma maquina usamos localhost si no la ip de la maquina servidor
+    //Direccion IP
     private String host = "localhost";
     
     //Variables del frame 
@@ -36,7 +36,7 @@ public class Cliente implements Runnable{
     
     private boolean turno;
     
-    //Constructor recibe como parametro la ventana (Frame), para poder hacer modificaciones sobre los botones
+    //Constructor recibe frame 
     public Cliente(Main frame){
         try {
             this.frame = frame;
@@ -47,7 +47,7 @@ public class Cliente implements Runnable{
             cliente = new Socket(host,puerto);
             in = new DataInputStream(cliente.getInputStream());
             out = new DataOutputStream(cliente.getOutputStream());
-            //Tomamos una matriz con los 9 botones del juego
+            //Matriz de 9 botones
             botones = this.frame.getBotones();
             
         } catch (Exception e) {
