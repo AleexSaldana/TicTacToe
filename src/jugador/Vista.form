@@ -57,18 +57,18 @@
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
-                                  <Component id="M21" min="-2" pref="115" max="-2" attributes="0"/>
+                                  <Component id="Button21" min="-2" pref="115" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="M22" min="-2" pref="115" max="-2" attributes="0"/>
+                                  <Component id="Button22" min="-2" pref="115" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="M23" min="-2" pref="115" max="-2" attributes="0"/>
+                                  <Component id="Button23" min="-2" pref="115" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" attributes="0">
-                                  <Component id="M11" min="-2" pref="115" max="-2" attributes="0"/>
+                                  <Component id="Button11" min="-2" pref="115" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="M13" min="-2" pref="115" max="-2" attributes="0"/>
+                                  <Component id="Button13" min="-2" pref="115" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="M12" min="-2" pref="115" max="-2" attributes="0"/>
+                                  <Component id="Button12" min="-2" pref="115" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -76,14 +76,14 @@
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="1" attributes="0">
                               <Component id="lbTurno" min="-2" max="-2" attributes="0"/>
-                              <Component id="M31" min="-2" pref="115" max="-2" attributes="0"/>
+                              <Component id="Button31" min="-2" pref="115" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="M32" min="-2" pref="115" max="-2" attributes="0"/>
+                          <Component id="Button32" min="-2" pref="115" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jButton1" min="-2" pref="103" max="-2" attributes="0"/>
-                              <Component id="M33" min="-2" pref="115" max="-2" attributes="0"/>
+                              <Component id="Button33" min="-2" pref="115" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="32767" attributes="0"/>
                       </Group>
@@ -96,21 +96,21 @@
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="M11" min="-2" pref="115" max="-2" attributes="0"/>
-                      <Component id="M13" min="-2" pref="115" max="-2" attributes="0"/>
-                      <Component id="M12" min="-2" pref="115" max="-2" attributes="0"/>
+                      <Component id="Button11" min="-2" pref="115" max="-2" attributes="0"/>
+                      <Component id="Button13" min="-2" pref="115" max="-2" attributes="0"/>
+                      <Component id="Button12" min="-2" pref="115" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="M21" min="-2" pref="115" max="-2" attributes="0"/>
-                      <Component id="M22" min="-2" pref="115" max="-2" attributes="0"/>
-                      <Component id="M23" min="-2" pref="115" max="-2" attributes="0"/>
+                      <Component id="Button21" min="-2" pref="115" max="-2" attributes="0"/>
+                      <Component id="Button22" min="-2" pref="115" max="-2" attributes="0"/>
+                      <Component id="Button23" min="-2" pref="115" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="M31" min="-2" pref="115" max="-2" attributes="0"/>
-                      <Component id="M32" min="-2" pref="115" max="-2" attributes="0"/>
-                      <Component id="M33" min="-2" pref="115" max="-2" attributes="0"/>
+                      <Component id="Button31" min="-2" pref="115" max="-2" attributes="0"/>
+                      <Component id="Button32" min="-2" pref="115" max="-2" attributes="0"/>
+                      <Component id="Button33" min="-2" pref="115" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -123,7 +123,7 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JButton" name="M11">
+        <Component class="javax.swing.JButton" name="Button11">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="bd" red="c3" type="rgb"/>
@@ -131,10 +131,10 @@
             <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="M11ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button11ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="M13">
+        <Component class="javax.swing.JButton" name="Button13">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="bd" red="c3" type="rgb"/>
@@ -142,10 +142,10 @@
             <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="M13ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button13ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="M12">
+        <Component class="javax.swing.JButton" name="Button12">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="bd" red="c3" type="rgb"/>
@@ -153,10 +153,10 @@
             <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="M12ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button12ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="M21">
+        <Component class="javax.swing.JButton" name="Button21">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="bd" red="c3" type="rgb"/>
@@ -164,10 +164,10 @@
             <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="M21ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button21ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="M22">
+        <Component class="javax.swing.JButton" name="Button22">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="bd" red="c3" type="rgb"/>
@@ -175,10 +175,10 @@
             <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="M22ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button22ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="M23">
+        <Component class="javax.swing.JButton" name="Button23">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="bd" red="c3" type="rgb"/>
@@ -186,10 +186,10 @@
             <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="M23ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button23ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="M31">
+        <Component class="javax.swing.JButton" name="Button31">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="bd" red="c3" type="rgb"/>
@@ -197,10 +197,10 @@
             <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="M31ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button31ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="M32">
+        <Component class="javax.swing.JButton" name="Button32">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="bd" red="c3" type="rgb"/>
@@ -208,10 +208,10 @@
             <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="M32ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button32ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="M33">
+        <Component class="javax.swing.JButton" name="Button33">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="bd" red="c3" type="rgb"/>
@@ -219,7 +219,7 @@
             <Property name="opaque" type="boolean" value="false"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="M33ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Button33ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jButton1">
