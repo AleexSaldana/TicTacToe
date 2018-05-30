@@ -1,4 +1,4 @@
-package jugador;
+package clientejugador;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;

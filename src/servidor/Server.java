@@ -4,7 +4,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.LinkedList;
 
-public class Servidor {
+public class Server {
 
     private final int port = 2626;
     private final int noJugadoresMax = 2;
@@ -32,7 +32,7 @@ public class Servidor {
                 users.add(cliente);
                 int xo = turnos % 2 == 0 ? 1 : 0;
                 turnos++;
-                Runnable run = new HiloServidor(cliente, users, xo, Y);
+                Runnable run = new HiloServer(cliente, users, xo, Y);
                 Thread hilo = new Thread(run);
                 hilo.start();
             }
@@ -42,7 +42,7 @@ public class Servidor {
     }
 
     public static void main(String[] args) {
-        Servidor servidor = new Servidor();
+        Server servidor = new Server();
         servidor.escuchar();
     }
 }

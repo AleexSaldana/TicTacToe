@@ -1,4 +1,4 @@
-package jugador;
+package clientejugador;
 
 import java.awt.*;
 import java.awt.event.ActionListener;

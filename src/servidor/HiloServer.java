@@ -9,7 +9,7 @@ import java.util.LinkedList;
  *
  * @author frank
  */
-public class HiloServidor implements Runnable {
+public class HiloServer implements Runnable {
 
     private Socket socket;
     private DataOutputStream out;
@@ -19,7 +19,7 @@ public class HiloServidor implements Runnable {
     private boolean turn;
     private LinkedList<Socket> usuarios = new LinkedList<Socket>();
 
-    public HiloServidor(Socket soc, LinkedList users, int xo, int[][] Gato) {
+    public HiloServer(Socket soc, LinkedList users, int xo, int[][] Gato) {
         socket = soc;
         usuarios = users;
         figura = xo;
